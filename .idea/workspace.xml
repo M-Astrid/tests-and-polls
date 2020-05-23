@@ -11,8 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d75cec5-32d6-418b-8289-71cd515edb15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/sonata_admin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes/sonata_admin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/fos_user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/sonata_user.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tests_and_polls.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tests_and_polls.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +158,9 @@
       <path value="$PROJECT_DIR$/vendor/sonata-project/doctrine-orm-admin-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/security" />
       <path value="$PROJECT_DIR$/vendor/sonata-project/easy-extends-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sonata-project/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1baVWEMb7KN0BtnEp4YWhi13xgc" />
@@ -193,7 +207,7 @@
       <workItem from="1589867511183" duration="13000" />
       <workItem from="1590174018631" duration="4580000" />
       <workItem from="1590227977939" duration="2164000" />
-      <workItem from="1590230160196" duration="1996000" />
+      <workItem from="1590230160196" duration="4865000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1588870550215</created>
@@ -209,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588871278774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sonata admin installed">
+      <created>1590233612061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590233612061</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sonata admin installed">
+      <created>1590233633556</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590233633556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,17 +257,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="sonata admin installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="sonata admin installed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="27" width="670" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588872675447">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="371" y="27" width="670" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1588872675447" />
-    <state x="255" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1588871278658">
+    <state x="255" y="27" width="912" height="741" key="CommitChangelistDialog2" timestamp="1590233633160">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="255" y="27" width="912" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1588871278658" />
+    <state x="255" y="27" width="912" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1590233633160" />
     <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590175520528">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -248,13 +277,13 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="423" y="116" width="617" height="561" key="NewPhpClassDialog/67.27.1299.741@67.27.1299.741" timestamp="1590175300974" />
-    <state x="407" y="135" width="743" height="548" key="find.popup" timestamp="1590230779821">
+    <state x="407" y="135" width="743" height="548" key="find.popup" timestamp="1590234992411">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="407" y="135" width="743" height="548" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1590230779821" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590228825961">
+    <state x="407" y="135" width="743" height="548" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1590234992411" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1590233699464">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1590228825961" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1590233699464" />
   </component>
 </project>
