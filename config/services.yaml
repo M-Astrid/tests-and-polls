@@ -25,3 +25,20 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    #################################
+    ####  >>> Sonata Admin >>>   ####
+    #################################
+
+    admin.custom.test:
+        class: App\Admin\TestAdmin
+        arguments:
+            - ~
+            - ~
+            - App\Controller\Admin\TestController
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: Demo, label: Test }
+
+    #################################
+    ####  <<< Sonata Admin <<<   ####
+    #################################

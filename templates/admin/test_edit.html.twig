@@ -1,0 +1,15 @@
+{% extends '@SonataAdmin/standard_layout.html.twig' %}
+
+{% block sonata_admin_content %}
+    {{ form_start(form) }}
+    {{ form_row(form.name) }}
+
+    <h3>Add some questions:</h3>
+    <ul class="questions" data-prototype="{{ form_widget(form.questions.vars.prototype)|e('html_attr') }}">
+        {% for question in form.questions %}
+            <li>{{ form_row(question.type) }}</li>
+            <li>{{ form_row(question.text) }}</li>
+        {% endfor %}
+    </ul>
+    {{ form_end(form) }}
+{% endblock %}
